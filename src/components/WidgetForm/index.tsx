@@ -13,13 +13,6 @@ export const feedbackTypes = {
             alt: 'Imagem de um inseto'
         }
     },
-    OTHER: {
-        title: 'Outro',
-        image: {
-            source: thoughtImageUrl,
-            alt: 'Imagem de um balao de pensamento'
-        }
-    },
     IDEA: {
         title: 'Ideia',
         image: {
@@ -27,6 +20,13 @@ export const feedbackTypes = {
             alt: 'Imagem de uma lampada'
         }
     },
+    OTHER: {
+        title: 'Outro',
+        image: {
+            source: thoughtImageUrl,
+            alt: 'Imagem de um balao de pensamento'
+        }
+    }
 
 }
 
